@@ -55,6 +55,7 @@ i{
   background: var(--pink-blue);
   color: white;
   font-weight: bold;
+  border: none;
 }
 
 .register-btn{
@@ -79,7 +80,7 @@ section,footer{
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px rgb(102, 57, 200);
+  /* box-shadow: inset 0 0 5px rgb(102, 57, 200); */
   border-radius: 15px;
 }
 
@@ -95,8 +96,8 @@ section,footer{
 /* Header  */
 
 .nav-item a {
-  font-weight: bold;
-  font-size: 13px;
+  font-weight: 500;
+  font-size: 14px;
   color: #fff;
 }
 
@@ -147,7 +148,7 @@ section,footer{
 
 .header {
   width: 100%;
-  height: 100vh;
+  height: 100dvh;
   background-image: url("../public/images/landing.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -170,21 +171,21 @@ section,footer{
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(9px);
   width: 79%;
-  height: 100vh;
+  height: 100dvh;
   z-index: 5;
   margin-left: 50px;
 }
 
 .right-content {
   width: 100%;
-  height: 100vh;
+  height: 100dvh;
   z-index: 5;
   padding-left: 90px;
 }
 
 .landing{
   width: 100%;
-  height: 100vh !important;
+  height: 100dvh !important;
 }
 
 .overlay-img {
@@ -378,7 +379,7 @@ line-height: 25px;
   background: #253071;
   padding-bottom: 45px;
   overflow: visible;
-  margin-top: 300px;
+  margin-top: 200px;
 }
 
 #testimonials .vertical-heading {
@@ -418,8 +419,6 @@ line-height: 25px;
 }
 
 .author .author-name-des {
-  width: 106px;
-  margin-top: 10px;
   text-align: left;
 }
 
