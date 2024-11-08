@@ -1,0 +1,233 @@
+@media (max-width: 768px) {
+  header {
+    height: 100vh !important;
+  }
+  .left-content,
+  .right-content {
+    margin: 0;
+    padding: 0;
+  }
+  .overlay-img {
+    display: none !important;
+  }
+  .header-btn {
+    margin: 20px 0;
+  }
+
+  .left-content {
+    width: 100%;
+    height: 200px;
+  }
+
+  .right-content {
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+  }
+
+  .right-content h1 {
+    font-size: 35px;
+  }
+
+  /* introduction  */
+
+  .introduction-video {
+    margin-top: -80px !important;
+  }
+
+  /* platform  */
+  .platforms {
+    margin-top: 40px;
+  }
+
+  /* user problem  */
+  .problem {
+    margin-top: 0;
+  }
+
+  .client-logo{
+    font-size: 17px;
+  }
+
+  .problem-titles{
+    font-size: 16px;
+  }
+  .problem-texts{
+    font-size: 14px;
+  }
+
+  .problem-stats{
+    font-size: 18px;
+  }
+
+  .problem-stats-text{
+    font-size: 14px;
+  }
+
+  .chex-icon {
+    font-size: 12px;
+    border: 2px solid;
+    width: 25px;
+    height: 25px;
+  }
+
+
+  /* what customers say  */
+  .vertical-heading {
+    text-align: center;
+}
+.vertical-heading h5 {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    display: block;
+    position: static;
+    margin-bottom: 15px;
+}
+.vertical-heading h2 {
+    font-size: 29px;
+    line-height: normal;
+    margin: 0;
+}
+
+/* Testimonials */
+#testimonials {
+    padding-top: 45px;
+}
+#testimonial-slider {
+    top: 0;
+}
+#testimonials .vertical-heading {
+    padding: 0;
+}
+
+.testimonial {
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+.testimonial .row {
+    margin: 0;
+}
+.testimonial h3 {
+    font-size: 22px;
+}
+.testimonial .stars {
+    font-size: 16px;
+}
+.author img {
+    width: 60px !important;
+    height: 60px;
+}
+
+  /*  work images */
+  .wrapper {
+    width: 300px;
+    height: 400px;
+  }
+
+  /* statistic  */
+  .number {
+    border-bottom: 4px solid transparent;
+    font-size: 20px;
+  }
+  .statistiken-text {
+    font-size: 15px;
+  }
+
+  /* footer  */
+  .footer-text {
+    font-size: 12px;
+    padding: 0 40px;
+  }
+
+  /* Questions  */
+  .question {
+    font-size: 12px;
+  }
+
+  .accordion-button::before {
+    font-size: 1rem;
+    width: 25px;
+    height: 25px;
+  }
+  .accordion-body {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .scroll-mobile-video {
+    width: 250px;
+    height: 450px;
+  }
+
+  .user-problem-photo{
+    width: 300px;
+    height: 500px;
+  }
+
+  .register-btn {
+    font-size: 14px;
+  }
+
+  .introduction-video {
+    margin-top: 0px;
+  }
+
+  .introduction-lable {
+    color: #01cbee;
+    font-size: 16px;
+  }
+
+  .introduce-text {
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* Generic */
+  .vertical-heading h2 {
+      font-size: 29px;
+  }
+ 
+}
+
+
+@media (max-width: 480px) {
+  /* Generic */
+  .vertical-heading h2 {
+      font-size: 22px;
+  }
+  /* Testimonials */
+  .testimonial h3 {
+      font-size: 19px;
+      line-height: 18px;
+  }
+  .testimonial .stars {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  /* Testimonials */
+  .testimonial h3 {
+      font-size: 17px;
+      line-height: 16px;
+  }
+  .testimonial .stars {
+      font-size: 12px;
+  }
+}
+
+
+/* 
+Breakpoint prefix	Minimum width	CSS
+sm	640px	@media (min-width: 640px) { ... }
+md	768px	@media (min-width: 768px) { ... }
+lg	1024px	@media (min-width: 1024px) { ... }
+xl	1280px	@media (min-width: 1280px) { ... } */
