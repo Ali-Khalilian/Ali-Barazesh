@@ -1,4 +1,7 @@
 @media (max-width: 768px) {
+  .title,.navbar-brand,.footer-logo{
+    font-size: 25px;
+  }
   header {
     height: 100vh !important;
   }
@@ -129,15 +132,20 @@
   .number {
     border-bottom: 4px solid transparent;
     font-size: 20px;
+    width: 130px;
   }
   .statistiken-text {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   /* footer  */
   .footer-text {
     font-size: 12px;
     padding: 0 40px;
+  }
+
+  .copyRight{
+    font-size: 14px;
   }
 
   /* Questions  */
@@ -200,6 +208,10 @@
 
 @media (max-width: 480px) {
   /* Generic */
+  .title,.navbar-brand,.footer-logo{
+    font-size: 22px;
+  }
+
   .vertical-heading h2 {
       font-size: 22px;
   }
@@ -211,6 +223,22 @@
   .testimonial .stars {
       font-size: 14px;
   }
+
+  
+  /* statistic  */
+  .number {
+    border-bottom: 4px solid transparent;
+    font-size: 17px;
+    width: 90px;
+  }
+  .statistiken-text {
+    font-size: 10px;
+  }
+
+  .copyRight{
+    font-size: 12px;
+  }
+
 }
 
 @media (max-width: 320px) {
