@@ -189,9 +189,8 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
-
-
   overflow-y: scroll;
+  scrollbar-width: none;
 }
 
 .header::before {
