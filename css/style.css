@@ -673,3 +673,27 @@ height: 400px;
   font-weight: 600;
   font-size: 17px;
 }
+
+.rules-link a{
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.rules-link a:hover{
+  color: #0dcaf0;
+}
+
+/* -------------------------------- */
+
+.impressum p{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.impressum-title{
+  font-size: 25px;
+}
