@@ -87,7 +87,7 @@ $(document).ready(function () {
   //       $leftContent.css("filter").replace("blur(", "").replace("px)", "")
   //     ) || 0;
 
-  //   if (currentScrollTop > lastScrollTop && blurValue < 9) {
+  //   if (currentScrollTop > lastScrollTop && blurValue < 13) {
   //     // Increase blur when scrolling down, up to a max of 9px
   //     $leftContent.css("filter", `blur(${blurValue + 0.3}px)`);
   //     $rightContent.css("filter", `blur(${blurValue + 0.3}px)`);
@@ -113,9 +113,9 @@ $hero.on("scroll", () => {
   if (currentScrollTop === 0) {
     // Reset blur when scrolled to the top
     blurValue = 0;
-  } else if (currentScrollTop > lastScrollTop && blurValue < 9) {
-    // Increase blur when scrolling down, up to a max of 9px
-    blurValue = Math.min(blurValue + 0.3, 9);
+  } else if (currentScrollTop > lastScrollTop && blurValue < 13) {
+    // Increase blur when scrolling down, up to a max of 13px
+    blurValue = Math.min(blurValue + 0.3, 13);
   } else if (currentScrollTop < lastScrollTop && blurValue > 0) {
     // Decrease blur when scrolling up, down to a min of 0px
     blurValue = Math.max(blurValue - 0.3, 0);
