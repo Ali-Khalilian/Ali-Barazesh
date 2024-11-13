@@ -8,6 +8,10 @@ $(document).ready(function () {
   const $navItems = $(".navbar-nav .nav-item .nav-link");
   const $logosSlide = $(".logos-slide").clone();
   const $carouselButtons = $("#carouselButtons");
+  const $hero = $("#hero");
+  const $leftContent = $("#left");
+  const $rightContent = $("#right");
+  const $overImg = $("#overImg");
 
   // Initialize WOW.js
   new WOW({
@@ -72,5 +76,29 @@ $(document).ready(function () {
   $(".counter").counterUp({
     delay: 15,
     time: 2000,
-  }); 
+  });
+
+  let lastScrollTop = 0;
+
+  $hero.on("scroll", () => {
+    const currentScrollTop = $hero.scrollTop();
+    let blurValue =
+      parseFloat(
+        $leftContent.css("filter").replace("blur(", "").replace("px)", "")
+      ) || 0;
+
+    if (currentScrollTop > lastScrollTop && blurValue < 9) {
+      // Increase blur when scrolling down, up to a max of 9px
+      $leftContent.css("filter", `blur(${blurValue + 0.3}px)`);
+      $rightContent.css("filter", `blur(${blurValue + 0.3}px)`);
+      $overImg.css("filter", `blur(${blurValue + 0.3}px)`);
+    } else if (currentScrollTop < lastScrollTop && blurValue > 0) {
+      // Decrease blur when scrolling up, down to a min of 0px
+      $leftContent.css("filter", `blur(${blurValue - 0.3}px)`);
+      $rightContent.css("filter", `blur(${blurValue - 0.3}px)`);
+      $overImg.css("filter", `blur(${blurValue - 0.3}px)`);
+    }
+
+    lastScrollTop = currentScrollTop;
+  });
 });
