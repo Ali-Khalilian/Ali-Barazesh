@@ -310,6 +310,7 @@ html {
 .introduction-lable {
   color: var(--blue);
   font-size: 20px;
+  margin-right: 10px;
 }
 
 .introduce-text {
