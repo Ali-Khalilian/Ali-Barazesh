@@ -1,8 +1,14 @@
 /* Global config  */
 
-@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
-
 /* font  */
+@font-face {
+  font-family: 'FunnelDisplay';
+  src: url('./fonts/Funnel_Display/FunnelDisplay-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+/* colors  */
 :root {
   --body:#0B1B34;
   --blue : #00C6E9;
@@ -11,7 +17,7 @@
   --blue-to-white:linear-gradient(to right, #00C6E9 10%, #00C6E9 2%, #ffffff 40%,#ffffff 100%);
   --statistik:linear-gradient(90deg,#BC2525 1%,#19376d 60%,#0b2447 100%);
   --darkBlue-lightBlue: linear-gradient(90deg,#162B4D 29%,#00C6E9 100%);
-  --pink-blue-light: linear-gradient(90deg, rgba(188,37,37,0.2918301109506303) 10%, rgba(25,55,109,0.4991130241158963) 39%);
+  --red-blue-light: #19376d;
 }
 
 * {
@@ -20,12 +26,6 @@
   box-sizing: border-box;
   animation-duration: 1s;
   animation-delay: 0s;
-
-
-  font-family: "Funnel Display", sans-serif;
-  font-optical-sizing: auto;
-  /* font-weight: <weight>; */
-  font-style: normal;
 }
 
 html {
@@ -34,6 +34,7 @@ html {
 
 body {
   background-color: var(--body);
+  font-family: 'FunnelDisplay',sans-serif;
   overflow-x: hidden;
 }
 
@@ -466,7 +467,7 @@ html {
 }
 
 #testimonial-slider {
-  background: var(--pink-blue-light);
+  background: var(--red-blue-light);
   border-radius: 20px;
 }
 
