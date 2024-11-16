@@ -260,6 +260,10 @@
   }
   
 
+  .item {
+    height: 125px;
+  }
+
   
   /* statistic  */
   .number {
@@ -303,7 +307,7 @@
   }
 
   .item {
-    height: 120px;
+    height: 115px;
   }
 
 }
