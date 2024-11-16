@@ -78,6 +78,35 @@ $(document).ready(function () {
     time: 2000,
   });
 
+  // let lastScrollTop = 0;
+
+  // $hero.on("scroll", () => {
+  //   const currentScrollTop = $hero.scrollTop();
+  //   let blurValue =
+  //     parseFloat(
+  //       $leftContent.css("filter").replace("blur(", "").replace("px)", "")
+  //     ) || 0;
+
+  //   if (currentScrollTop === 0) {
+  //     // Reset blur when scrolled to the top
+  //     blurValue = 0;
+  //   } else if (currentScrollTop > lastScrollTop && blurValue < 13) {
+  //     // Increase blur when scrolling down, up to a max of 13px
+  //     blurValue = Math.min(blurValue + 0.3, 13);
+  //   } else if (currentScrollTop < lastScrollTop && blurValue > 0) {
+  //     // Decrease blur when scrolling up, down to a min of 0px
+  //     blurValue = Math.max(blurValue - 0.3, 0);
+  //   }
+
+  //   $leftContent.css("filter", `blur(${blurValue}px)`);
+  //   $rightContent.css("filter", `blur(${blurValue}px)`);
+  //   $overImg.css("filter", `blur(${blurValue}px)`);
+
+  //   lastScrollTop = currentScrollTop;
+  // });
+
+
+
   let lastScrollTop = 0;
 
   $hero.on("scroll", () => {
@@ -86,7 +115,7 @@ $(document).ready(function () {
       parseFloat(
         $leftContent.css("filter").replace("blur(", "").replace("px)", "")
       ) || 0;
-
+  
     if (currentScrollTop === 0) {
       // Reset blur when scrolled to the top
       blurValue = 0;
@@ -97,11 +126,24 @@ $(document).ready(function () {
       // Decrease blur when scrolling up, down to a min of 0px
       blurValue = Math.max(blurValue - 0.3, 0);
     }
-
-    $leftContent.css("filter", `blur(${blurValue}px)`);
-    $rightContent.css("filter", `blur(${blurValue}px)`);
-    $overImg.css("filter", `blur(${blurValue}px)`);
-
+  
+    // Apply the blur with webkit compatibility
+    $leftContent.css({
+      "filter": `blur(${blurValue}px)`,
+      "-webkit-filter": `blur(${blurValue}px)` /* Add this line */
+    });
+    $rightContent.css({
+      "filter": `blur(${blurValue}px)`,
+      "-webkit-filter": `blur(${blurValue}px)` /* Add this line */
+    });
+    $overImg.css({
+      "filter": `blur(${blurValue}px)`,
+      "-webkit-filter": `blur(${blurValue}px)` /* Add this line */
+    });
+  
     lastScrollTop = currentScrollTop;
   });
+  
+
+
 });
