@@ -771,8 +771,9 @@ html {
 
 .item {
   position: relative;
-  height: 150px;
-  background: var(--blue-to-white);
+  height: 120px;
+  background: var(--red-blue-light);
+  color: white;
   cursor: pointer;
 }
 
