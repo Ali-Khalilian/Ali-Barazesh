@@ -10,21 +10,28 @@
 } */
 
 @font-face {
-  font-family: 'Hubot';
-  src: url('./fonts/Hubot_Sans/static/HubotSans-SemiBold.ttf') format('truetype');
+  font-family: "Hubot";
+  src: url("./fonts/Hubot_Sans/static/HubotSans-SemiBold.ttf")
+    format("truetype");
   font-weight: 100 900;
   font-style: normal;
 }
 
 /* colors  */
 :root {
-  --body:#0B1B34;
-  --blue : #00C6E9;
-  --red : #BC2525;
-  --customer:#162B4D;
-  --blue-to-white:linear-gradient(to right, #00C6E9 10%, #00C6E9 2%, #ffffff 40%,#ffffff 100%);
-  --statistik:linear-gradient(90deg,#BC2525 1%,#19376d 60%,#0b2447 100%);
-  --darkBlue-lightBlue: linear-gradient(90deg,#162B4D 29%,#00C6E9 100%);
+  --body: #0b1b34;
+  --blue: #00c6e9;
+  --red: #bc2525;
+  --customer: #162b4d;
+  --blue-to-white: linear-gradient(
+    to right,
+    #00c6e9 10%,
+    #00c6e9 2%,
+    #ffffff 40%,
+    #ffffff 100%
+  );
+  --statistik: linear-gradient(90deg, #bc2525 1%, #19376d 60%, #0b2447 100%);
+  --darkBlue-lightBlue: linear-gradient(90deg, #162b4d 29%, #00c6e9 100%);
   --red-blue-light: #19376d;
 }
 
@@ -42,7 +49,7 @@ html {
 
 body {
   background-color: var(--body);
-  font-family: 'Hubot',sans-serif;
+  font-family: "Hubot", sans-serif;
   overflow-x: hidden;
 }
 
@@ -50,11 +57,11 @@ i {
   cursor: pointer;
 }
 
-.text-red{
+.text-red {
   color: var(--red);
 }
 
-.text-blue{
+.text-blue {
   color: var(--blue);
 }
 
@@ -69,7 +76,7 @@ i {
   font-size: 18px;
 }
 
-.logo-mid-name{
+.logo-mid-name {
   color: var(--blue);
 }
 
@@ -182,7 +189,7 @@ html {
   background-color: var(--red);
   transform-origin: bottom right;
   transition: transform 0.3s ease-out;
-  -webkit-transition: transform 0.3s ease-out; 
+  -webkit-transition: transform 0.3s ease-out;
 }
 
 .hover-underline-animation:hover::after {
@@ -243,7 +250,7 @@ html {
   z-index: 1;
 }
 
-.content{
+.content {
   width: 100%;
   position: sticky;
   top: 0;
@@ -304,7 +311,6 @@ html {
   height: 600px;
   z-index: 99;
   /* backdrop-filter: blur(9px); */
-
 }
 .scroll-mobile {
   display: flex;
@@ -363,15 +369,14 @@ html {
 
 .logos:before {
   left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), #0B1B34);
-  background: -webkit-linear-gradient(to left, rgba(255, 255, 255, 0), #0B1B34);
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), #0b1b34);
+  background: -webkit-linear-gradient(to left, rgba(255, 255, 255, 0), #0b1b34);
 }
 
 .logos:after {
   right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), #0B1B34);
-  background: -webkit-linear-gradient(to left, rgba(255, 255, 255, 0), #0B1B34);
-
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #0b1b34);
+  background: -webkit-linear-gradient(to left, rgba(255, 255, 255, 0), #0b1b34);
 }
 
 .logos:hover .logos-slide {
@@ -441,7 +446,7 @@ html {
   margin-right: 20px;
 }
 
-.customerImg{
+.customerImg {
   width: 200px;
   height: 55px;
   padding-left: 30px;
@@ -570,7 +575,7 @@ html {
   height: 100%;
   transition: flex 0.8s ease;
   cursor: pointer;
-  border-radius: 35px; 
+  border-radius: 35px;
 }
 
 .card-image:hover {
@@ -766,28 +771,26 @@ html {
   font-size: 25px;
 }
 
-
-
 /* calender  */
 
 .calendar {
   display: grid;
   grid-template-columns: repeat(5, 7fr);
   grid-template-rows: repeat(6, auto);
-  gap: 10px;
+  gap: 4px;
 }
 
 .item {
   position: relative;
-  height: 120px;
+  height: 160px;
   background: var(--red-blue-light);
   color: white;
   cursor: pointer;
 }
 
-.calender-number{
+.calender-number {
   position: absolute;
-  top: 0;
-  left: 3px;
+  top: 8px;
+  left: 8px;
   font-size: 17px;
 }

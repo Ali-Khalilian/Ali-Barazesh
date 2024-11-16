@@ -192,11 +192,6 @@
     font-size: 12px;
   }
 
-  .item {
-    width: 90px !important;
-    height: 150px;
-  }
-
 }
 
 
@@ -229,10 +224,6 @@
     line-height: 30px;
   }
 
-  .item {
-    width: 135px;
-    height: 115px;
-  }
 }
 
 
@@ -293,11 +284,6 @@
     width: 150px;
   }
 
-  .item {
-    width: 60px !important;
-    height: 100px;
-  }
-
 }
 
 @media (max-width: 350px) {
@@ -317,8 +303,7 @@
   }
 
   .item {
-    width:50px !important;
-    height: 90px;
+    height: 120px;
   }
 
 }
