@@ -70,6 +70,7 @@ i {
   color: var(--customer);
   font-weight: bold;
   border: none;
+  box-shadow: 0px 0px 15px 5px var(--blue);
 }
 
 .register-btn {
@@ -78,6 +79,7 @@ i {
 
 .logo-mid-name {
   color: var(--blue);
+  text-shadow: 2px 3px 20px var(--blue);
 }
 
 section,
@@ -273,6 +275,10 @@ html {
   padding-left: 90px;
 }
 
+.arg{
+  text-shadow: 1px 2px 35px white;
+}
+
 .landing {
   width: 100%;
   height: 100dvh !important;
@@ -302,6 +308,8 @@ html {
 .header-btn:hover {
   background-color: var(--red) !important;
   color: white !important;
+  box-shadow: 0px 0px 15px 5px var(--red);
+
 }
 
 /* scroll-mobile  */
@@ -331,6 +339,8 @@ html {
   color: var(--blue);
   font-size: 20px;
   margin-right: 6px;
+  text-shadow: 1px 2px 40px var(--blue);
+
 }
 
 .introduce-text {
@@ -435,6 +445,12 @@ html {
 
 .problem-stats {
   font-size: 25px;
+  text-shadow: 1px 2px 20px white;
+
+}
+
+.problem-stats-text{
+  text-shadow: 1px 2px 40px var(--blue);
 }
 
 /* What Customers Say*/
@@ -451,6 +467,10 @@ html {
   height: 55px;
   padding-left: 30px;
   margin-top: 25px;
+}
+
+.customer-shadow{
+  text-shadow: 1px 2px 12px var(--blue);
 }
 
 .vertical-heading h5 {
@@ -488,7 +508,9 @@ html {
 }
 
 #testimonial-slider {
-  background: var(--red-blue-light);
+  /* background: var(--red-blue-light); */
+  background-image: url("../public/images/lf.svg");
+  background-position: center;
   border-radius: 20px;
 }
 
@@ -510,6 +532,8 @@ html {
 
 .testimonial .stars {
   font-size: 20px;
+  text-shadow: 1px 2px 18px white;
+
 }
 
 .testimonial p {
@@ -542,6 +566,8 @@ html {
 .activate,
 .footerdot:hover {
   background-color: var(--blue);
+  box-shadow: 0px 0px 15px var(--blue);
+
 }
 
 /* Statistiken */
@@ -560,6 +586,7 @@ html {
 .statistiken-text {
   font-size: 20px;
   font-weight: 700;
+  text-shadow: 2px 3px 20px white;
 }
 
 /* Work Images  */
@@ -663,6 +690,7 @@ html {
   top: 50%;
   transform: translateY(-50%);
   transition: transform 0.3s ease;
+  box-shadow: 0px 0px 10px 1px var(--blue);
 }
 
 .accordion-button:not(.collapsed)::before {
