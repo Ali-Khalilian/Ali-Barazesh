@@ -1,9 +1,17 @@
 /* Global config  */
 
 /* font  */
-@font-face {
+
+/* @font-face {
   font-family: 'FunnelDisplay';
   src: url('./fonts/Funnel_Display/FunnelDisplay-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'Hubot';
+  src: url('./fonts/Hubot_Sans/static/HubotSans-SemiBold.ttf') format('truetype');
   font-weight: 100 900;
   font-style: normal;
 }
@@ -34,7 +42,7 @@ html {
 
 body {
   background-color: var(--body);
-  font-family: 'FunnelDisplay',sans-serif;
+  font-family: 'Hubot',sans-serif;
   overflow-x: hidden;
 }
 
@@ -368,11 +376,11 @@ html {
 }
 
 .logos-slide img {
-  height: 50px;
+  width: 180px;
   margin: 0 40px;
 }
 
-/* User Priblems  */
+/* User Problems  */
 
 .client-logo {
   font-size: 30px;
@@ -495,10 +503,12 @@ html {
   margin: 0;
   margin-top: 5px;
   margin-bottom: 20px;
+  font-size: 17px;
 }
 
 .author .author-name-des {
   text-align: left;
+  font-size: 16px;
 }
 
 .author .author-name-des p {
@@ -509,7 +519,7 @@ html {
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin: 0 6px;
   background-color: white;
   border-radius: 50%;
   display: inline-block;
@@ -701,7 +711,6 @@ html {
 
 .footer-text {
   font-weight: bold;
-  font-size: 17px;
 }
 
 .email {
@@ -747,4 +756,29 @@ html {
 
 .impressum-title {
   font-size: 25px;
+}
+
+
+
+/* calender  */
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(5, 7fr);
+  grid-template-rows: repeat(6, auto);
+  gap: 10px;
+}
+
+.item {
+  position: relative;
+  height: 150px;
+  background: var(--blue-to-white);
+  cursor: pointer;
+}
+
+.calender-number{
+  position: absolute;
+  top: 0;
+  left: 3px;
+  font-size: 17px;
 }
