@@ -192,6 +192,11 @@
     font-size: 12px;
   }
 
+  .progress{
+    height: 25px;
+    font-size: 8px !important;
+  }
+
 }
 
 
@@ -222,6 +227,11 @@
   .introduce-text {
     font-size: 14px;
     line-height: 30px;
+  }
+
+  .progress{
+    height: 25px;
+    font-size: 12px;
   }
 
 }
@@ -308,6 +318,11 @@
 
   .item {
     height: 115px;
+  }
+
+  .progress div img{
+    width: 15px;
+    height: 15px;
   }
 
 }

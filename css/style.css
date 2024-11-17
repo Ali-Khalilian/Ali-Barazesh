@@ -70,7 +70,7 @@ i {
   color: var(--customer);
   font-weight: bold;
   border: none;
-  box-shadow: 0px 0px 15px 5px var(--blue);
+  box-shadow: 0px 0px 20px 5px var(--blue);
 }
 
 .register-btn {
@@ -508,8 +508,7 @@ html {
 }
 
 #testimonial-slider {
-  /* background: var(--red-blue-light); */
-  background-image: url("../public/images/lf.svg");
+  background: var(--red-blue-light);
   background-position: center;
   border-radius: 20px;
 }
@@ -801,6 +800,7 @@ html {
 /* calender  */
 
 .calendar {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(5, 7fr);
   grid-template-rows: repeat(6, auto);
@@ -820,4 +820,103 @@ html {
   top: 8px;
   left: 8px;
   font-size: 17px;
+}
+
+.progress{
+  height: 27px;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  font-size: 15px;
+}
+
+
+.progress-1{
+  position: absolute;
+  top: 4.5%;
+  left: 1%;
+  /* width: 98%; */
+ background: var(--blue);
+}
+
+.progress-2{
+  position: absolute;
+  top: 8.5%;
+  left: 21%;
+  /* width: 38%; */
+ background: var(--red);
+}
+
+.progress-3-a{
+  position: absolute;
+  top: 12.5%;
+  left: 45%;
+  /* width: 38%; */
+ background: var(--blue-to-white);
+}
+
+.progress-3-b{
+  position: absolute;
+  top: 22%;
+  left: 1%;
+  /* width: 78%; */
+ background: var(--blue-to-white);
+}
+
+.progress-4-a{
+  position: absolute;
+  top: 27%;
+  left: 61%;
+  /* width: 18%; */
+ background: var(--darkBlue-lightBlue);
+}
+
+.progress-4-b{
+  position: absolute;
+  top: 40%;
+  left: 1%;
+  /* width: 78%; */
+ background: var(--darkBlue-lightBlue);
+}
+
+.progress-5-a{
+  position: absolute;
+  top: 44%;
+  left: 45%;
+  /* width: 18%; */
+ background: greenyellow;
+}
+
+
+.progress-5-b{
+  position: absolute;
+  top: 57%;
+  left: 1%;
+  /* width: 78%; */
+ background: greenyellow;
+}
+
+.progress-6{
+  position: absolute;
+  top: 72%;
+  left: 1%;
+  /* width: 58%; */
+ background: #9973d4;
+}
+
+.progress-7{
+  position: absolute;
+  top: 76%;
+  left: 41%;
+  /* width: 58%; */
+ background: #ff025e;
+}
+
+.progress-8{
+  position: absolute;
+  top: 91%;
+  left: 1%;
+  /* width: 98%; */
+ background: #d7c76b;
 }
