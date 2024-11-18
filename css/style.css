@@ -2,13 +2,6 @@
 
 /* font  */
 
-/* @font-face {
-  font-family: 'FunnelDisplay';
-  src: url('./fonts/Funnel_Display/FunnelDisplay-VariableFont_wght.ttf') format('truetype');
-  font-weight: 100 900;
-  font-style: normal;
-} */
-
 @font-face {
   font-family: "Hubot";
   src: url("./fonts/Hubot_Sans/static/HubotSans-SemiBold.ttf")
@@ -32,7 +25,6 @@
   );
   --statistik: linear-gradient(90deg, #bc2525 1%, #19376d 60%, #0b2447 100%);
   --darkBlue-lightBlue: linear-gradient(90deg, #162b4d 29%, #00c6e9 100%);
-  --red-blue-light: #19376d;
 }
 
 * {
@@ -70,7 +62,7 @@ i {
   color: var(--customer);
   font-weight: bold;
   border: none;
-  box-shadow: 0px 0px 20px 5px var(--blue);
+  box-shadow: 0px 0px 10px 3px var(--blue);
 }
 
 .register-btn {
@@ -232,24 +224,12 @@ html {
   width: 100vw;
   height: 100dvh;
   overflow-y: scroll;
-  background-image: url("../public/images/landing.svg");
+  background-image: url("../public/images/landing222.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
   position: relative;
-}
-
-.header::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 200dvh;
-  background-color: var(--body);
-  opacity: 60%;
-  z-index: 1;
 }
 
 .content {
@@ -339,8 +319,6 @@ html {
   color: var(--blue);
   font-size: 20px;
   margin-right: 6px;
-  text-shadow: 1px 2px 40px var(--blue);
-
 }
 
 .introduce-text {
@@ -460,6 +438,16 @@ html {
   width: 90px;
   height: 90px;
   margin-right: 20px;
+  background: linear-gradient(90deg, rgba(0,198,233,1) 6%, rgba(228,17,115,1) 28%, rgba(134,34,195,1) 49%, rgba(255,255,255,1) 77%, rgba(6,26,159,1) 93%);
+  padding: 4px;
+  box-shadow: 0px 0px 12px var(--blue);
+}
+
+.img-circle img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 .customerImg {
@@ -467,10 +455,6 @@ html {
   height: 55px;
   padding-left: 30px;
   margin-top: 25px;
-}
-
-.customer-shadow{
-  text-shadow: 1px 2px 12px var(--blue);
 }
 
 .vertical-heading h5 {
@@ -495,7 +479,7 @@ html {
 }
 
 #testimonials {
-  background: var(--customer);
+  background: url("../public/images/customer-card.svg");
   padding-bottom: 45px;
   overflow: visible;
   margin-top: 200px;
@@ -508,7 +492,7 @@ html {
 }
 
 #testimonial-slider {
-  background: var(--red-blue-light);
+  background: #0b3182;
   background-position: center;
   border-radius: 20px;
 }
@@ -586,6 +570,130 @@ html {
   font-size: 20px;
   font-weight: 700;
   text-shadow: 2px 3px 20px white;
+}
+
+
+/* calender  */
+
+.calendar {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, 7fr);
+  grid-template-rows: repeat(6, auto);
+  gap: 4px;
+}
+
+.item {
+  position: relative;
+  height: 160px;
+  background: #476488;
+  color: white;
+}
+
+.calender-number {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  font-size: 17px;
+}
+
+.progress{
+  height: 27px;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  font-size: 15px;
+}
+
+
+.progress-1{
+  position: absolute;
+  top: 4.5%;
+  left: 1%;
+  /* width: 98%; */
+  background: #00a07d  ;
+}
+
+.progress-2{
+  position: absolute;
+  top: 8.5%;
+  left: 21%;
+  /* width: 38%; */
+ background: #f89500  ;
+}
+
+.progress-3-a{
+  position: absolute;
+  top: 12.5%;
+  left: 45%;
+  /* width: 38%; */
+ background: #39a6ff;
+}
+
+.progress-3-b{
+  position: absolute;
+  top: 22%;
+  left: 1%;
+  /* width: 78%; */
+ background: #39a6ff;
+}
+
+.progress-4-a{
+  position: absolute;
+  top: 27%;
+  left: 61%;
+  /* width: 18%; */
+ background: #1e03cb;
+}
+
+.progress-4-b{
+  position: absolute;
+  top: 40%;
+  left: 1%;
+  /* width: 78%; */
+ background: #1e03cb;
+}
+
+.progress-5-a{
+  position: absolute;
+  top: 44%;
+  left: 45%;
+  /* width: 18%; */
+ background: var(--red) ;
+}
+
+
+.progress-5-b{
+  position: absolute;
+  top: 57%;
+  left: 1%;
+  /* width: 78%; */
+ background: var(--red) ;
+}
+
+.progress-6{
+  position: absolute;
+  top: 72%;
+  left: 1%;
+  /* width: 58%; */
+ background: #9b66ea;
+}
+
+.progress-7{
+  position: absolute;
+  top: 76%;
+  left: 41%;
+  /* width: 58%; */
+ background: #72CF46;
+}
+
+.progress-8{
+  position: absolute;
+  top: 91%;
+  left: 1%;
+  /* width: 98%; */
+ background: #19376D;
 }
 
 /* Work Images  */
@@ -795,128 +903,4 @@ html {
 
 .impressum-title {
   font-size: 25px;
-}
-
-/* calender  */
-
-.calendar {
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(5, 7fr);
-  grid-template-rows: repeat(6, auto);
-  gap: 4px;
-}
-
-.item {
-  position: relative;
-  height: 160px;
-  background: var(--red-blue-light);
-  color: white;
-  cursor: pointer;
-}
-
-.calender-number {
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  font-size: 17px;
-}
-
-.progress{
-  height: 27px;
-  color: black;
-  display: flex;
-  align-items: center;
-  padding-left: 5px;
-  font-size: 15px;
-}
-
-
-.progress-1{
-  position: absolute;
-  top: 4.5%;
-  left: 1%;
-  /* width: 98%; */
- background: var(--blue);
-}
-
-.progress-2{
-  position: absolute;
-  top: 8.5%;
-  left: 21%;
-  /* width: 38%; */
- background: var(--red);
-}
-
-.progress-3-a{
-  position: absolute;
-  top: 12.5%;
-  left: 45%;
-  /* width: 38%; */
- background: var(--blue-to-white);
-}
-
-.progress-3-b{
-  position: absolute;
-  top: 22%;
-  left: 1%;
-  /* width: 78%; */
- background: var(--blue-to-white);
-}
-
-.progress-4-a{
-  position: absolute;
-  top: 27%;
-  left: 61%;
-  /* width: 18%; */
- background: var(--darkBlue-lightBlue);
-}
-
-.progress-4-b{
-  position: absolute;
-  top: 40%;
-  left: 1%;
-  /* width: 78%; */
- background: var(--darkBlue-lightBlue);
-}
-
-.progress-5-a{
-  position: absolute;
-  top: 44%;
-  left: 45%;
-  /* width: 18%; */
- background: greenyellow;
-}
-
-
-.progress-5-b{
-  position: absolute;
-  top: 57%;
-  left: 1%;
-  /* width: 78%; */
- background: greenyellow;
-}
-
-.progress-6{
-  position: absolute;
-  top: 72%;
-  left: 1%;
-  /* width: 58%; */
- background: #9973d4;
-}
-
-.progress-7{
-  position: absolute;
-  top: 76%;
-  left: 41%;
-  /* width: 58%; */
- background: #ff025e;
-}
-
-.progress-8{
-  position: absolute;
-  top: 91%;
-  left: 1%;
-  /* width: 98%; */
- background: #d7c76b;
 }
