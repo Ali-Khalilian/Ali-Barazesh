@@ -269,6 +269,17 @@ html {
   width: 60%;
 }
 
+#HeadTitle, #HeadTitleText {
+  will-change: filter;
+  transform: translateZ(0);
+}
+#HeadTitle, #HeadTitleText {
+  filter: blur(0px); /* Default state */
+  -webkit-filter: blur(0px); /* Safari compatibility */
+  will-change: filter; /* Hint for hardware acceleration */
+  transform: translateZ(0); /* Force GPU rendering */
+}
+
 
 .navbar-toggler-icon {
   background-image: url("../public/images/burger-menu.svg");

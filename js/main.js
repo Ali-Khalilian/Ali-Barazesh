@@ -77,39 +77,35 @@ $(document).ready(function () {
     time: 2000,
   });
 
+
   let lastScrollTop = 0;
 
-  $hero.on("scroll", () => {
-    const currentScrollTop = $hero.scrollTop();
-    let blurValue =
-      parseFloat(
-        $HeadTitle.css("filter").replace("blur(", "").replace("px)", "")
-      ) || 0;
+  $hero.on("scroll touchmove", () => {
+      const currentScrollTop = $hero.scrollTop();
+      let blurValue = 
+          parseFloat($HeadTitle.css("filter").replace("blur(", "").replace("px)", "")) || 0;
   
-    if (currentScrollTop === 0) {
-      // Reset blur when scrolled to the top
-      blurValue = 0;
-    } else if (currentScrollTop > lastScrollTop && blurValue < 10) {
-      // Increase blur when scrolling down, up to a max of 10px
-      blurValue = Math.min(blurValue + 0.3, 10);
-    } else if (currentScrollTop < lastScrollTop && blurValue > 0) {
-      // Decrease blur when scrolling up, down to a min of 0px
-      blurValue = Math.max(blurValue - 0.3, 0);
-    }
+      if (currentScrollTop === 0) {
+          blurValue = 0; // Reset blur
+      } else if (currentScrollTop > lastScrollTop && blurValue < 10) {
+          blurValue = Math.min(blurValue + 0.3, 10); // Increase blur
+      } else if (currentScrollTop < lastScrollTop && blurValue > 0) {
+          blurValue = Math.max(blurValue - 0.3, 0); // Decrease blur
+      }
   
-    // Apply the blur with webkit compatibility
-    $HeadTitle.css({
-      "filter": `blur(${blurValue}px)`,
-      "-webkit-filter": `blur(${blurValue}px)` /* Add this line */
-    });
-    $HeadTitleText.css({
-      "filter": `blur(${blurValue}px)`,
-      "-webkit-filter": `blur(${blurValue}px)` /* Add this line */
-    });
+      // Apply blur with webkit compatibility
+      $HeadTitle.css({
+          "filter": `blur(${blurValue}px)`,
+          "-webkit-filter": `blur(${blurValue}px)`
+      });
   
-    lastScrollTop = currentScrollTop;
+      $HeadTitleText.css({
+          "filter": `blur(${blurValue}px)`,
+          "-webkit-filter": `blur(${blurValue}px)`
+      });
+  
+      lastScrollTop = currentScrollTop;
   });
-
 
 
 
