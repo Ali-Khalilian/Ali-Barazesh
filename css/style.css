@@ -276,6 +276,17 @@ html {
   height: 100dvh !important;
 }
 
+.head-title{
+  color: white;
+  font-size: 65px;
+}
+.head-title-text{
+  color: white;
+  font-size: 17px;
+  line-height: 30px;
+  width: 60%;
+}
+
 .overlay-img {
   position: absolute;
   bottom: 0;

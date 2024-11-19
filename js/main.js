@@ -9,7 +9,7 @@ $(document).ready(function () {
   const $logosSlide = $(".logos-slide").clone();
   const $carouselButtons = $("#carouselButtons");
   const $hero = $("#hero");
-  const $leftContent = $("#left");
+  const $leftContent = $(".landing");
   const $rightContent = $("#right");
   const $overImg = $("#overImg");
 
@@ -115,12 +115,6 @@ $(document).ready(function () {
     lastScrollTop = currentScrollTop;
   });
 
-
-
-
-
-
-
   $(function () {
     $("#Calender").waypoint(
       function () {
@@ -138,7 +132,4 @@ $(document).ready(function () {
       }
     );
   });
-  
-
-
 });

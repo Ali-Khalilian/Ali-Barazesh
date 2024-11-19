@@ -197,6 +197,13 @@
     font-size: 8px !important;
   }
 
+  .head-title{
+    font-size: 45px !important;
+  }
+  .head-title-text{
+    font-size: 13px;
+  }
+
 }
 
 
@@ -232,6 +239,10 @@
   .progress{
     height: 25px;
     font-size: 12px;
+  }
+
+  .head-title{
+    font-size: 55px;
   }
 
 }
@@ -298,6 +309,14 @@
     width: 150px;
   }
 
+  .head-title{
+    font-size: 35px !important;
+  }
+  .head-title-text{
+    font-size: 12px;
+    width: 80%;
+  }
+
 }
 
 @media (max-width: 350px) {
@@ -325,6 +344,9 @@
     height: 15px;
   }
 
+  .head-title{
+    font-size: 30px !important;
+  }
 }
 
 
