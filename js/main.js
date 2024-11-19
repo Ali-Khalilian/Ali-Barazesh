@@ -88,12 +88,12 @@ $(document).ready(function () {
     if (currentScrollTop === 0) {
       // Reset blur when scrolled to the top
       blurValue = 0;
-    } else if (currentScrollTop > lastScrollTop && blurValue < 5) {
-      // Increase blur when scrolling down, up to a max of 5px
-      blurValue = Math.min(blurValue + 0.4, 5);
+    } else if (currentScrollTop > lastScrollTop && blurValue < 10) {
+      // Increase blur when scrolling down, up to a max of 10px
+      blurValue = Math.min(blurValue + 0.3, 10);
     } else if (currentScrollTop < lastScrollTop && blurValue > 0) {
       // Decrease blur when scrolling up, down to a min of 0px
-      blurValue = Math.max(blurValue - 0.4, 0);
+      blurValue = Math.max(blurValue - 0.3, 0);
     }
    
     $landing.css({
