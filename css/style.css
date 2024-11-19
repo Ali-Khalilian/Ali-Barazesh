@@ -268,11 +268,13 @@ html {
 
 .head-title{
   color: white;
-  font-size: 65px;
+  font-size: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .head-title-text{
   color: white;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 30px;
   width: 60%;
   text-align: justify;
@@ -297,9 +299,9 @@ html {
 }
 
 .header-btn {
-  margin-bottom: 20px;
   color: var(--red) !important;
   border-radius: 30px;
+  font-size: 15px;
 }
 .header-btn:hover {
   background-color: var(--red) !important;
