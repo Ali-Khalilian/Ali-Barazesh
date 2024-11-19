@@ -11,6 +11,7 @@ $(document).ready(function () {
   const $hero = $("#hero");
   const $HeadTitle = $("#HeadTitle");
   const $HeadTitleText = $("#HeadTitleText");
+  const $HeadBtn = $(".header-btn");
 
   // Initialize WOW.js
   new WOW({
@@ -77,7 +78,6 @@ $(document).ready(function () {
     time: 2000,
   });
 
-
   let lastScrollTop = 0;
 
   $hero.on("scroll touchmove", () => {
@@ -98,6 +98,11 @@ $(document).ready(function () {
           "filter": `blur(${blurValue}px)`,
           "-webkit-filter": `blur(${blurValue}px)`
       });
+
+      $HeadBtn.css({
+        "filter": `blur(${blurValue}px)`,
+        "-webkit-filter": `blur(${blurValue}px)`
+    });
   
       $HeadTitleText.css({
           "filter": `blur(${blurValue}px)`,
