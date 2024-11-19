@@ -107,11 +107,6 @@ $(document).ready(function () {
       lastScrollTop = currentScrollTop;
   });
 
-
-
-
-
-
   $(function () {
     $("#Calender").waypoint(
       function () {
@@ -129,7 +124,5 @@ $(document).ready(function () {
       }
     );
   });
-  
-
 
 });

@@ -267,6 +267,7 @@ html {
   font-size: 17px;
   line-height: 30px;
   width: 60%;
+  text-align: justify;
 }
 
 #HeadTitle, #HeadTitleText {
