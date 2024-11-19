@@ -9,7 +9,8 @@ $(document).ready(function () {
   const $logosSlide = $(".logos-slide").clone();
   const $carouselButtons = $("#carouselButtons");
   const $hero = $("#hero");
-  const $landing = $(".landing");
+  const $HeadTitle = $("#HeadTitle");
+  const $HeadTitleText = $("#HeadTitleText");
 
   // Initialize WOW.js
   new WOW({
@@ -82,27 +83,38 @@ $(document).ready(function () {
     const currentScrollTop = $hero.scrollTop();
     let blurValue =
       parseFloat(
-        $landing.css("filter").replace("blur(", "").replace("px)", "")
+        $HeadTitle.css("filter").replace("blur(", "").replace("px)", "")
       ) || 0;
   
     if (currentScrollTop === 0) {
       // Reset blur when scrolled to the top
       blurValue = 0;
-    } else if (currentScrollTop > lastScrollTop && blurValue < 10) {
-      // Increase blur when scrolling down, up to a max of 10px
-      blurValue = Math.min(blurValue + 0.3, 10);
+    } else if (currentScrollTop > lastScrollTop && blurValue < 13) {
+      // Increase blur when scrolling down, up to a max of 13px
+      blurValue = Math.min(blurValue + 0.3, 13);
     } else if (currentScrollTop < lastScrollTop && blurValue > 0) {
       // Decrease blur when scrolling up, down to a min of 0px
       blurValue = Math.max(blurValue - 0.3, 0);
     }
-   
-    $landing.css({
+  
+    // Apply the blur with webkit compatibility
+    $HeadTitle.css({
       "filter": `blur(${blurValue}px)`,
-      "-webkit-filter": `blur(${blurValue}px)` 
+      "-webkit-filter": `blur(${blurValue}px)` /* Add this line */
     });
- 
+    $HeadTitleText.css({
+      "filter": `blur(${blurValue}px)`,
+      "-webkit-filter": `blur(${blurValue}px)` /* Add this line */
+    });
+  
     lastScrollTop = currentScrollTop;
   });
+
+
+
+
+
+
 
   $(function () {
     $("#Calender").waypoint(
@@ -121,4 +133,7 @@ $(document).ready(function () {
       }
     );
   });
+  
+
+
 });
