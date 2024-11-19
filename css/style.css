@@ -232,7 +232,6 @@ html {
   position: relative;
 }
 
-
 .header::before {
   content: "";
   position: absolute;
@@ -243,28 +242,11 @@ html {
   z-index: 1;
 }
 
-
 .content {
   width: 100%;
   position: sticky;
   top: 0;
   z-index: 2;
-}
-
-.left-content {
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(9px);
-  -webkit-backdrop-filter: blur(9px);
-  width: 79%;
-  height: 100dvh;
-  margin-left: 50px;
-}
-
-.right-content {
-  width: 100%;
-  height: 100dvh;
-  z-index: 5;
-  padding-left: 90px;
 }
 
 .arg{
@@ -287,17 +269,6 @@ html {
   width: 60%;
 }
 
-.overlay-img {
-  position: absolute;
-  bottom: 0;
-  left: 33%;
-  z-index: 77;
-}
-
-.overlay-img img {
-  width: 280px;
-  height: 130px;
-}
 
 .navbar-toggler-icon {
   background-image: url("../public/images/burger-menu.svg");
@@ -347,6 +318,16 @@ html {
 .introduce-text {
   font-size: 17px;
   line-height: 30px;
+}
+
+.introduce-text i{
+  color: var(--blue);
+  margin-right: 5px;
+}
+
+.separator{
+  border-top: 2px solid var(--blue);
+  padding-top: 20px;
 }
 
 /* Platform  */
@@ -462,7 +443,7 @@ html {
   height: 90px;
   margin-right: 20px;
   background: linear-gradient(90deg, rgba(0,198,233,1) 6%, rgba(228,17,115,1) 28%, rgba(134,34,195,1) 49%, rgba(255,255,255,1) 77%, rgba(6,26,159,1) 93%);
-  padding: 4px;
+  padding: 2.6px;
   box-shadow: 0px 0px 12px var(--blue);
 }
 

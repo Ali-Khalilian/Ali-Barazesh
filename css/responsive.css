@@ -5,32 +5,9 @@
   header {
     height: 100vh !important;
   }
-  .left-content,
-  .right-content {
-    margin: 0;
-    padding: 0;
-  }
-  .overlay-img {
-    display: none !important;
-  }
+  
   .header-btn {
     margin: 20px 0;
-  }
-
-  .left-content {
-    width: 100%;
-    height: 200px;
-  }
-
-  .right-content {
-    margin-top: 100px;
-    width: 100%;
-    height: 300px;
-    margin-bottom: 50px;
-  }
-
-  .right-content h1 {
-    font-size: 35px;
   }
 
   /* introduction  */
@@ -146,11 +123,11 @@
   /* statistic  */
   .number {
     border-bottom: 4px solid transparent;
-    font-size: 20px;
+    font-size: 25px;
     width: 130px;
   }
   .statistiken-text {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   /* footer  */
