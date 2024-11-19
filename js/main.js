@@ -12,6 +12,7 @@ $(document).ready(function () {
   const $HeadTitle = $("#HeadTitle");
   const $HeadTitleText = $("#HeadTitleText");
   const $HeadBtn = $(".header-btn");
+  const $headImg = $(".head-img");
 
   // Initialize WOW.js
   new WOW({
@@ -108,7 +109,11 @@ $(document).ready(function () {
           "filter": `blur(${blurValue}px)`,
           "-webkit-filter": `blur(${blurValue}px)`
       });
-  
+      
+      $headImg.css({
+        "filter": `blur(${blurValue}px)`,
+        "-webkit-filter": `blur(${blurValue}px)`
+    });
       lastScrollTop = currentScrollTop;
   });
 

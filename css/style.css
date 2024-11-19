@@ -85,8 +85,8 @@ footer {
 
 .gradient-title {
   font-weight: bold;
-  background: var(--blue-to-white);
-  background: var(--blue-to-white);
+  background: var(--blue-to-white); 
+  -webkit-background: var(--blue-to-white); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -224,12 +224,20 @@ html {
   width: 100vw;
   height: 100dvh;
   overflow-y: scroll;
-  background-image: url("../public/images/landing222.svg");
+  /* background-image: url("../public/images/landing222.svg"); */
+  background-color: black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
   position: relative;
+}
+
+.head-img{
+  max-width: 600px;
+  max-height: 400px;
+  border-radius: 5px;
+  margin-top: 25px;
 }
 
 .header::before {
@@ -270,11 +278,12 @@ html {
   text-align: justify;
 }
 
-#HeadTitle, #HeadTitleText,.header-btn {
+
+#HeadTitle, #HeadTitleText,.header-btn,.head-img {
   will-change: filter;
   transform: translateZ(0);
 }
-#HeadTitle, #HeadTitleText,.header-btn {
+#HeadTitle, #HeadTitleText,.header-btn,.head-img {
   filter: blur(0px); 
   -webkit-filter: blur(0px); 
   will-change: filter;
@@ -288,8 +297,9 @@ html {
 }
 
 .header-btn {
-  margin-top: 30px;
+  margin-bottom: 20px;
   color: var(--red) !important;
+  border-radius: 30px;
 }
 .header-btn:hover {
   background-color: var(--red) !important;
