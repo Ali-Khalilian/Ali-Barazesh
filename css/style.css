@@ -83,12 +83,21 @@ footer {
   font-size: 35px;
 }
 
-.gradient-title {
+/* .gradient-title {
   font-weight: bold;
   background: var(--blue-to-white); 
   -webkit-background: var(--blue-to-white); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+} */
+
+.gradient-title {
+  font-weight: bold;
+  background: var(--blue-to-white); 
+  background-clip: text;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  color: transparent;
 }
 
 /* preloader  */
