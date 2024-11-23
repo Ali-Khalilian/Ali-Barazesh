@@ -1,22 +1,24 @@
 @media (max-width: 768px) {
-  .title,.navbar-brand,.footer-logo{
+  .title,
+  .navbar-brand,
+  .footer-logo {
     font-size: 25px;
   }
   header {
     height: 100vh !important;
   }
-  
+
   .header-btn {
     margin: 20px 0;
     font-size: 16px;
   }
 
-.head-img{
-  max-width: 350px;
-  max-height: 350px;
-  border-radius: 5px;
-  margin-top: 25px;
-}
+  .head-img {
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 5px;
+    margin-top: 25px;
+  }
 
   /* introduction  */
 
@@ -34,22 +36,22 @@
     margin-top: 0;
   }
 
-  .client-logo{
+  .client-logo {
     font-size: 17px;
   }
 
-  .problem-titles{
+  .problem-titles {
     font-size: 16px;
   }
-  .problem-texts{
+  .problem-texts {
     font-size: 14px;
   }
 
-  .problem-stats{
+  .problem-stats {
     font-size: 18px;
   }
 
-  .problem-stats-text{
+  .problem-stats-text {
     font-size: 14px;
   }
 
@@ -60,9 +62,8 @@
     height: 25px;
   }
 
-
   /* what customers say  */
-  .customerImg{
+  .customerImg {
     width: 170px;
     height: 50px;
     padding-left: 0px;
@@ -70,57 +71,56 @@
   }
   .vertical-heading {
     text-align: center;
-}
-.vertical-heading h5 {
+  }
+  .vertical-heading h5 {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
     display: block;
     position: static;
     margin-bottom: 15px;
-}
-.vertical-heading h2 {
+  }
+  .vertical-heading h2 {
     font-size: 29px;
     line-height: normal;
     margin: 0;
-}
+  }
 
-/* Testimonials */
-#testimonials {
+  /* Testimonials */
+  #testimonials {
     padding-top: 45px;
-}
-#testimonial-slider {
+  }
+  #testimonial-slider {
     top: 0;
-}
-#testimonials .vertical-heading {
+  }
+  #testimonials .vertical-heading {
     padding: 0;
-}
+  }
 
-.testimonial {
-  margin-top: 0px;
-  margin-bottom: 40px;
-}
-.testimonial .row {
+  .testimonial {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  .testimonial .row {
     margin: 0;
-}
-.testimonial h3 {
+  }
+  .testimonial h3 {
     font-size: 22px;
-}
-.testimonial .stars {
+  }
+  .testimonial .stars {
     font-size: 16px;
-}
-.author img {
+  }
+  .author img {
     width: 60px !important;
     height: 60px;
-}
+  }
 
-.testimonial p {
-  font-size: 13px;
-}
+  .testimonial p {
+    font-size: 13px;
+  }
 
-
-.author .author-name-des {
-  font-size: 13px;
-}
+  .author .author-name-des {
+    font-size: 13px;
+  }
 
   /*  work images */
   .wrapper {
@@ -144,7 +144,7 @@
     padding: 0 40px;
   }
 
-  .copyRight{
+  .copyRight {
     font-size: 14px;
   }
 
@@ -163,34 +163,30 @@
     line-height: 20px;
   }
 
-
-   /* ------------------------------- */
-   .impressum-title{
+  /* ------------------------------- */
+  .impressum-title {
     font-size: 17px;
   }
-  .impressum p{
+  .impressum p {
     font-size: 13px;
   }
 
-
-  .calender-number{
+  .calender-number {
     font-size: 12px;
   }
 
-  .progress{
+  .progress {
     height: 25px;
     font-size: 8px !important;
   }
 
-  .head-title{
+  .head-title {
     font-size: 45px !important;
   }
-  .head-title-text{
+  .head-title-text {
     font-size: 13px;
   }
-
 }
-
 
 @media (max-width: 992px) {
   .scroll-mobile-video {
@@ -198,7 +194,7 @@
     height: 450px;
   }
 
-  .user-problem-photo{
+  .user-problem-photo {
     width: 300px;
     height: 500px;
   }
@@ -221,56 +217,51 @@
     line-height: 30px;
   }
 
-  .progress{
+  .progress {
     height: 25px;
     font-size: 12px;
   }
 
-  .head-title{
+  .head-title {
     font-size: 48px;
   }
-
 }
-
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* Generic */
   .vertical-heading h2 {
-      font-size: 29px;
+    font-size: 29px;
   }
- 
 }
-
 
 @media (max-width: 480px) {
   /* Generic */
-  .title,.navbar-brand,.footer-logo{
+  .title,
+  .navbar-brand,
+  .footer-logo {
     font-size: 22px;
   }
 
   .vertical-heading h2 {
-      font-size: 22px;
+    font-size: 22px;
   }
   /* Testimonials */
   .testimonial h3 {
-      font-size: 19px;
-      line-height: 18px;
+    font-size: 19px;
+    line-height: 18px;
   }
   .testimonial .stars {
-      font-size: 14px;
+    font-size: 14px;
   }
 
   .testimonial p {
     font-size: 12px;
   }
-  
 
   .item {
     height: 125px;
   }
 
-  
   /* statistic  */
   .number {
     border-bottom: 4px solid transparent;
@@ -281,11 +272,11 @@
     font-size: 10px;
   }
 
-  .copyRight{
+  .copyRight {
     font-size: 12px;
   }
 
-  .user-problem-photo{
+  .user-problem-photo {
     width: 250px;
     height: 400px;
   }
@@ -294,29 +285,28 @@
     width: 150px;
   }
 
-  .head-title{
+  .head-title {
     font-size: 35px !important;
   }
-  .head-title-text{
+  .head-title-text {
     font-size: 12px;
     width: 80%;
   }
-
 }
 
 @media (max-width: 350px) {
   /* Testimonials */
   .testimonial h3 {
-      font-size: 17px;
-      line-height: 16px;
+    font-size: 17px;
+    line-height: 16px;
   }
   .testimonial .stars {
-      font-size: 12px;
+    font-size: 12px;
   }
-  .title{
+  .title {
     font-size: 20px;
   }
-  .rules-link a{
+  .rules-link a {
     font-size: 12px;
   }
 
@@ -324,23 +314,22 @@
     height: 115px;
   }
 
-  .progress div img{
+  .progress div img {
     width: 15px;
     height: 15px;
   }
 
-  .head-title{
+  .head-title {
     font-size: 30px !important;
   }
 
-  .head-img{
+  .head-img {
     max-width: 200px !important;
     max-height: 200px !important;
     border-radius: 5px;
     margin-top: 25px;
   }
 }
-
 
 /* 
 Breakpoint prefix	Minimum width	CSS
