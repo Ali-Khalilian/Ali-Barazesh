@@ -95,14 +95,14 @@
           <div
             class="d-flex flex-column justify-content-center align-items-center landing"
           >
-          <a
-          href="https://calendly.com/alibarzesh/grundungszuschuss"
-          class="btn btn-outline-danger text-red fw-bold px-4 header-btn wow animate__fadeInDown"
-          data-wow-duration="2s"
-        >
-          Schliesen Sie sich uns an
-        </a>
-   
+            <a
+              href="https://calendly.com/alibarzesh/grundungszuschuss"
+              class="btn btn-outline-danger text-red fw-bold px-4 header-btn wow animate__fadeInDown"
+              data-wow-duration="2s"
+            >
+              Schliesen Sie sich uns an
+            </a>
+
             <h1
               id="HeadTitle"
               class="head-title arg wow animate__fadeInDown"
@@ -122,7 +122,11 @@
               nachweisbare Ergebnisse liefern.
             </p>
 
-            <img src="./public/images/landing-2.svg" class="img-fluid head-img" alt="">
+            <img
+              src="./public/images/landing-2.svg"
+              class="img-fluid head-img"
+              alt=""
+            />
           </div>
         </div>
         <!-- landing section end -->
@@ -1093,8 +1097,10 @@
     <footer>
       <div class="footer-container text-light">
         <div class="container footer">
-          <div class="row w-100 h-100">
-            <div class="col-12 col-md-6">
+          <div
+            class="d-flex flex-column flex-md-row justify-content-center align-items-center w-100 h-100"
+          >
+            <div class="w-100">
               <div
                 class="d-flex flex-column text-center text-md-start justify-content-center h-100"
               >
@@ -1108,7 +1114,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-12 col-md-6 text-md-end">
+            <div class="w-100 text-md-end">
               <div
                 class="d-flex flex-column justify-content-center align-items-center align-items-md-end h-100 mt-md-4"
               >
@@ -1126,11 +1132,11 @@
                   info@innocostudio.co
                 </div>
                 <div
-                  class="mt-4 text-center text-md-end footer-icons wow animate__fadeInDown"
+                  class="mt-4 d-flex justify-content-between footer-icons wow animate__fadeInDown"
                 >
-                  <i class="fa fa-twitter fs-2 mx-3"></i>
+                  <i class="fa fa-twitter fs-2"></i>
                   <i class="fa fa-facebook-square fs-2"></i>
-                  <i class="fa fa-instagram fs-2 mx-3"></i>
+                  <i class="fa fa-instagram fs-2"></i>
                   <i class="fa fa-youtube-play fs-2"></i>
                 </div>
               </div>
@@ -1140,22 +1146,23 @@
       </div>
 
       <div class="text-light">
-        <div
-          class="container w-100 d-flex align-items-center justify-content-between rules-link"
-        >
+        <div class="rules-link d-flex justify-content-between container">
+          <!-- Datenschutzerklärung -->
+          <a href="./routes/Datenschutzerklärung.html">DSGVO</a>
           <a href="./routes/impressum.html">Impressum</a>
-          <a href="./routes/Datenschutzerklärung.html">Datenschutzerklärung</a>
           <a href="./routes/AGB.html">AGB</a>
         </div>
       </div>
       <div
-        class="w-100 d-flex align-items-center justify-content-center mb-3 copyRight"
+        class=" w-100 mb-3 copyRight"
       >
+       <div class="container d-flex align-items-center justify-content-center">
         <span
-          >© 2024
-          <a class="text-blue" href="https://cardinal-ug.com/">Cardinal-UG</a> .
-          Alle Rechte vorbehalten.</span
-        >
+        >© 2024
+        <a class="text-blue" href="https://cardinal-ug.com/">Cardinal-UG</a> .
+        Alle Rechte vorbehalten.</span
+      >
+       </div>
       </div>
     </footer>
 
