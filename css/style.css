@@ -235,7 +235,7 @@ html {
 
 .head-img {
   max-width: 600px;
-  max-height: 400px;
+  max-height: 300px;
   border-radius: 5px;
   margin-top: 25px;
 }
@@ -264,7 +264,6 @@ html {
 .landing {
   width: 100%;
   height: 100dvh;
-  margin-top: 35px;
 }
 
 .head-title {
@@ -317,8 +316,8 @@ html {
 /* scroll-mobile  */
 
 .scroll-mobile-video {
-  width: 300px;
-  height: 600px;
+  width: 350px;
+  height: 650px;
   z-index: 99;
   /* backdrop-filter: blur(9px); */
 }
@@ -416,8 +415,16 @@ html {
 /* User Problems  */
 
 .client-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 30px;
   background: var(--customer);
+}
+
+.client-logo img{
+  width: 100%;
+  height: 90px;
 }
 
 .chex-icon {
