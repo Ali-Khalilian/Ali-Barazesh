@@ -319,7 +319,7 @@ html {
   width: 350px;
   height: 650px;
   z-index: 99;
-  /* backdrop-filter: blur(9px); */
+  margin-top: 35px;
 }
 .scroll-mobile {
   display: flex;
