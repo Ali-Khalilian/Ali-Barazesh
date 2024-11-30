@@ -319,7 +319,6 @@ html {
   width: 350px;
   height: 650px;
   z-index: 99;
-  margin-top: 35px;
 }
 .scroll-mobile {
   display: flex;
