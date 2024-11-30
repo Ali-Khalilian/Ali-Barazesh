@@ -316,16 +316,17 @@ html {
 /* scroll-mobile  */
 
 .scroll-mobile-video {
-  width: 350px;
-  height: 600px;
+  width: 400px;
+  height: 650px;
   z-index: 99;
+  margin-top: 40px;
 }
 .scroll-mobile {
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 100;
-  /* width: 100%; */
+  width: 100%;
 }
 
 /* Introduction */
