@@ -317,7 +317,7 @@ html {
 
 .scroll-mobile-video {
   width: 350px;
-  height: 650px;
+  height: 600px;
   z-index: 99;
 }
 .scroll-mobile {
@@ -325,7 +325,6 @@ html {
   align-items: center;
   justify-content: center;
   z-index: 100;
-  padding: 50px;
   width: 100%;
 }
 
