@@ -332,7 +332,9 @@ html {
 /* Introduction */
 
 .introduction-video {
-  margin-top: -140px;
+  width: 300px;
+  height: 520px;
+  margin-top: 15px;
 }
 
 .introduction-lable {
