@@ -325,7 +325,7 @@ html {
   align-items: center;
   justify-content: center;
   z-index: 100;
-  width: 100%;
+  /* width: 100%; */
 }
 
 /* Introduction */
@@ -442,7 +442,7 @@ html {
 }
 
 .user-problem-photo {
-  width: 350px;
+  width: 290px;
   height: 500px;
 }
 
@@ -771,7 +771,7 @@ html {
   background-image: url("../public/images/Behind-the-scenes-2.PNG");
 }
 .card-3 {
-  background-image: url("../public/images/Behind-the-scenes-3.PNG");
+  background-image: url("../public/images/Behind-the-scenes-3\ -\ Copy.PNG");
 }
 .card-4 {
   background-image: url("../public/images/Behind-the-scenes-4.JPG");
