@@ -225,7 +225,7 @@ html {
   width: 100vw;
   height: 100dvh;
   overflow-y: scroll;
-  background-color: black;
+  background: url("../public/images/Web\ 1920\ –\ 8.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
