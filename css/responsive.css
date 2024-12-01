@@ -286,7 +286,7 @@
   .logos-slide img {
     width: 150px;
   }
-
+/* 
   .head-title {
     font-size: 35px !important;
   }
@@ -294,6 +294,31 @@
     font-size: 12px;
     width: 80%;
   }
+   */
+
+
+
+  .head-title {
+    font-size: 20px !important;
+  }
+  .head-title-text{
+    font-size: 10px;
+  }
+
+  .header-btn{
+    font-size: 10px;
+    padding: 5px;
+    margin-top: 50px !important;
+  }
+
+  .head-img {
+    max-width: 230px !important;
+    max-height: 200px !important;
+    border-radius: 5px;
+    margin-top: 25px;
+  }
+
+
 }
 
 @media (max-width: 350px) {
