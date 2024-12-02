@@ -760,7 +760,8 @@ html {
 .card-2,
 .card-3,
 .card-4,
-.card-5 {
+.card-5,
+.card-6 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -768,21 +769,24 @@ html {
 }
 
 .card-1 {
-  background-image: url("../public/images/Behind-the-scenes-1.PNG");
+  background-image: url("../public/images/@PhotoFixerBot_bts\ greazy1.jpg");
 }
 .card-2 {
-  background-image: url("../public/images/Behind-the-scenes-2.PNG");
+  background-image: url("../public/images/@PhotoFixerBot_bts\ greazy2.jpg");
 }
 .card-3 {
-  background-image: url("../public/images/Behind-the-scenes-3\ -\ Copy.PNG");
+  background-image: url("../public/images/@PhotoFixerBot_bts\ greazy3.jpg");
 }
 .card-4 {
-  background-image: url("../public/images/Behind-the-scenes-4.JPG");
+  background-image: url("../public/images/@PhotoFixerBot_bts\ greazy4.jpg");
 }
 .card-5 {
-  background-image: url("../public/images/Behind-the-scenes-5.PNG");
+  background-image: url("../public/images/@PhotoFixerBot_bts\ greazy5.jpg");
 }
 
+.card-6 {
+  background-image: url("../public/images/@PhotoFixerBot_bts\ greazy6.jpg");
+}
 /* Frequent Questions  */
 
 .accordion-button::after {
