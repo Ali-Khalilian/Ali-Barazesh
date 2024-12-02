@@ -910,9 +910,14 @@ html {
 
 .footer-icons {
   width: 200px;
+  
 }
 
-.footer-icons i:hover {
+.footer-icons i,a{
+  color: white;
+}
+
+.footer-icons a:hover {
   transition: all 0.1s ease;
   transform: translateY(-5px);
 }
