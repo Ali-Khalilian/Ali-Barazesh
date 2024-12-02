@@ -181,7 +181,7 @@ html {
   height: 2.5px;
   bottom: 0;
   left: 0;
-  background-color: var(--red);
+  background-color: var(--blue);
   transform-origin: bottom right;
   transition: transform 0.3s ease-out;
   -webkit-transition: transform 0.3s ease-out;
@@ -213,7 +213,7 @@ html {
   color: white !important;
 }
 .active-link.active {
-  border-bottom: 2.5px solid #f41313;
+  border-bottom: 2.5px solid var(--blue);
   padding-bottom: 6px;
 }
 
@@ -303,14 +303,14 @@ html {
 }
 
 .header-btn {
-  color: var(--red) !important;
+  color: var(--blue);
   border-radius: 30px;
   font-size: 15px;
 }
 .header-btn:hover {
-  background-color: var(--red) !important;
+  background-color: var(--blue) !important;
   color: white !important;
-  box-shadow: 0px 0px 15px 5px var(--red);
+  box-shadow: 0px 0px 15px 5px var(--blue);
 }
 
 /* scroll-mobile  */
