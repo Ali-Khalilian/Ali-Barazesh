@@ -523,7 +523,7 @@ html {
 }
 
 #testimonials {
-  background: url("../public/images/customer-card.svg");
+  background: url("../public/images/customer-bg.png");
   padding-bottom: 45px;
   overflow: visible;
   margin-top: 200px;
@@ -877,7 +877,7 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../public/images/lf.svg");
+  background-image: url("../public/images/footer-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
