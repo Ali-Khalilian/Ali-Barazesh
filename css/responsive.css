@@ -9,13 +9,14 @@
   }
 
   .header-btn {
+    font-size: 12px !important;
     margin: 20px 0;
     font-size: 16px;
   }
 
   .head-img {
     max-width: 350px;
-    max-height: 350px;
+    max-height: 170px;
     border-radius: 5px;
     margin-top: 25px;
   }
@@ -183,10 +184,10 @@
   }
 
   .head-title {
-    font-size: 45px !important;
+    font-size: 32px !important;
   }
   .head-title-text {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
 
@@ -225,7 +226,11 @@
   }
 
   .head-title {
-    font-size: 48px;
+    font-size: 40px;
+  }
+
+  .head-img{
+    width: 300px;
   }
 }
 
@@ -286,17 +291,6 @@
   .logos-slide img {
     width: 150px;
   }
-/* 
-  .head-title {
-    font-size: 35px !important;
-  }
-  .head-title-text {
-    font-size: 12px;
-    width: 80%;
-  }
-   */
-
-
 
   .head-title {
     font-size: 20px !important;
@@ -354,14 +348,14 @@
   }
 
   .header-btn{
-    font-size: 10px;
+    font-size: 10px !important;
     padding: 5px;
     margin-top: 50px !important;
   }
 
   .head-img {
     max-width: 230px !important;
-    max-height: 200px !important;
+    max-height: 130px !important;
     border-radius: 5px;
     margin-top: 25px;
   }
