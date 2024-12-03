@@ -422,7 +422,7 @@ html {
   background: var(--customer);
 }
 
-.client-logo img{
+.client-logo img {
   height: 60px;
 }
 
@@ -652,7 +652,6 @@ html {
   position: absolute;
   top: 4.5%;
   left: 1%;
-  /* width: 98%; */
   background: #00a07d;
 }
 
@@ -660,7 +659,6 @@ html {
   position: absolute;
   top: 8.5%;
   left: 21%;
-  /* width: 38%; */
   background: #f89500;
 }
 
@@ -668,7 +666,6 @@ html {
   position: absolute;
   top: 12.5%;
   left: 45%;
-  /* width: 38%; */
   background: #39a6ff;
 }
 
@@ -676,7 +673,6 @@ html {
   position: absolute;
   top: 22%;
   left: 1%;
-  /* width: 78%; */
   background: #39a6ff;
 }
 
@@ -684,7 +680,6 @@ html {
   position: absolute;
   top: 27%;
   left: 61%;
-  /* width: 18%; */
   background: #1e03cb;
 }
 
@@ -692,7 +687,6 @@ html {
   position: absolute;
   top: 40%;
   left: 1%;
-  /* width: 78%; */
   background: #1e03cb;
 }
 
@@ -700,7 +694,6 @@ html {
   position: absolute;
   top: 44%;
   left: 45%;
-  /* width: 18%; */
   background: var(--red);
 }
 
@@ -708,7 +701,6 @@ html {
   position: absolute;
   top: 57%;
   left: 1%;
-  /* width: 78%; */
   background: var(--red);
 }
 
@@ -716,7 +708,6 @@ html {
   position: absolute;
   top: 72%;
   left: 1%;
-  /* width: 58%; */
   background: #9b66ea;
 }
 
@@ -724,7 +715,6 @@ html {
   position: absolute;
   top: 76%;
   left: 41%;
-  /* width: 58%; */
   background: #72cf46;
 }
 
@@ -732,7 +722,6 @@ html {
   position: absolute;
   top: 91%;
   left: 1%;
-  /* width: 98%; */
   background: #19376d;
 }
 
@@ -753,7 +742,7 @@ html {
 }
 
 .card-image:hover {
-  flex: 5;
+  flex: 7;
   box-shadow: 0px 0px 10px 1px var(--red);
 }
 
@@ -910,10 +899,10 @@ html {
 
 .footer-icons {
   width: 200px;
-  
 }
 
-.footer-icons i,a{
+.footer-icons i,
+a {
   color: white;
 }
 
