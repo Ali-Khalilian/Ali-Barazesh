@@ -10,7 +10,7 @@
 
   .header-btn {
     font-size: 12px !important;
-    margin: 20px 0;
+    /* margin: 20px 0; */
     font-size: 16px;
   }
 
@@ -23,11 +23,6 @@
 
   /* introduction  */
 
-  .introduction-video {
-    width: 250px;
-    height: 450px;
-    margin-top: -50px !important;
-  }
 
   /* platform  */
   .platforms {
@@ -206,10 +201,6 @@
     font-size: 14px;
   }
 
-  .introduction-video {
-    margin-top: 0px;
-  }
-
   .introduction-lable {
     color: #01cbee;
     font-size: 16px;
@@ -302,7 +293,7 @@
   .header-btn{
     font-size: 10px;
     padding: 5px;
-    margin-top: 50px !important;
+    /* margin-top: 50px !important; */
   }
 
   .head-img {
@@ -312,7 +303,9 @@
     margin-top: 25px;
   }
 
-
+  .aliVideo{
+    height: 400px;
+  }
 }
 
 @media (max-width: 350px) {
@@ -354,7 +347,7 @@
   .header-btn{
     font-size: 10px !important;
     padding: 5px;
-    margin-top: 50px !important;
+    /* margin-top: 50px !important; */
   }
 
   .head-img {

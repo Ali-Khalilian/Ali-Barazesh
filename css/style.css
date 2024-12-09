@@ -237,7 +237,7 @@ html {
   max-width: 600px;
   max-height: 300px;
   border-radius: 5px;
-  margin-top: 25px;
+  margin-top: 25px; 
 }
 
 .header::before {
@@ -276,7 +276,6 @@ html {
   color: white;
   font-size: 15px;
   line-height: 30px;
-  width: 60%;
   text-align: justify;
 }
 
@@ -331,10 +330,8 @@ html {
 
 /* Introduction */
 
-.introduction-video {
-  width: 300px;
-  height: 520px;
-  margin-top: 15px;
+.aliVideo{
+  height: 510px;
 }
 
 .introduction-lable {
