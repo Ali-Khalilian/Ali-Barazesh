@@ -492,12 +492,12 @@ html {
 }
 
 .customerImg {
-  width: 100%; 
-  max-width: 200px; 
+  width: 200px;
+  max-width: 100%;
   height: auto;
   padding-left: 30px;
   margin-top: 25px;
-  image-rendering: auto;
+  image-rendering: crisp-edges; /* Prevents blurring by avoiding smoothing */
 }
 
 .vertical-heading h5 {
