@@ -497,6 +497,7 @@ html {
   height: auto;
   padding-left: 30px;
   margin-top: 25px;
+  display: block; /* Ensure the image is displayed correctly */
   image-rendering: crisp-edges; /* Prevents blurring by avoiding smoothing */
 }
 
