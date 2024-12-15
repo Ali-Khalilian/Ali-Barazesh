@@ -492,9 +492,9 @@ html {
 }
 
 .customerImg {
-  width: 200px;
-  max-width: 100%;
-  height: 200px;
+  width: 100%; 
+  max-width: 200px; 
+  height: auto;
   padding-left: 30px;
   margin-top: 25px;
   image-rendering: crisp-edges;
