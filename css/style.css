@@ -491,14 +491,23 @@ html {
   display: block;
 }
 
-.customerImg {
+/* .customerImg {
   width: 100%; 
   max-width: 200px; 
   height: auto;
   padding-left: 30px;
   margin-top: 25px;
   image-rendering: crisp-edges;
+} */
+
+.customerImg {
+  max-width: 200px;
+  height: auto;
+  padding-left: 30px;
+  margin-top: 25px;
+  image-rendering: crisp-edges;
 }
+
 
 .vertical-heading h5 {
   color: var(--red);
