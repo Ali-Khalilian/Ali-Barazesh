@@ -506,6 +506,7 @@ html {
   height: 70px;
   padding-left: 30px;
   margin-top: 25px;
+  image-rendering: crisp-edges;
 }
 
 .vertical-heading h5 {
