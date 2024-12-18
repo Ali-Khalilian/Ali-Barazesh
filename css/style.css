@@ -502,7 +502,7 @@ html {
 
 .customerImg {
   max-width: 200px;
-  /* height: 30px; */
+  height: 50px;
   padding-left: 30px;
   margin-top: 25px;
   image-rendering: crisp-edges;
