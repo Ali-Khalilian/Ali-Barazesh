@@ -810,7 +810,7 @@ html {
   font-weight: bold;
   padding: 1rem;
   border: none;
-  border-image: var(--darkBlue-lightBlue);
+  border-image: var(--blue-to-white);
   border-image-slice: 1;
   border-bottom: 1px solid transparent;
   position: relative;
