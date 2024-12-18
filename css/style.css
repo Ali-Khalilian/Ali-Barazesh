@@ -237,7 +237,7 @@ html {
   max-width: 600px;
   max-height: 300px;
   border-radius: 5px;
-  margin-top: 25px; 
+  margin-top: 25px;
 }
 
 .header::before {
@@ -330,7 +330,7 @@ html {
 
 /* Introduction */
 
-.aliVideo{
+.aliVideo {
   height: 510px;
 }
 
@@ -501,13 +501,12 @@ html {
 } */
 
 .customerImg {
-  /* max-width: 200px; */
-  /* height: 50px; */
+  max-width: 200px;
+  height: 50px;
   height: 70px;
   padding-left: 30px;
   margin-top: 25px;
 }
-
 
 .vertical-heading h5 {
   color: var(--red);
