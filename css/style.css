@@ -501,11 +501,11 @@ html {
 } */
 
 .customerImg {
-  max-width: 200px;
-  height: 50px;
+  /* max-width: 200px; */
+  /* height: 50px; */
+  height: 70px;
   padding-left: 30px;
   margin-top: 25px;
-  image-rendering: crisp-edges;
 }
 
 
