@@ -491,19 +491,9 @@ html {
   display: block;
 }
 
-/* .customerImg {
-  width: 100%; 
-  max-width: 200px; 
-  height: auto;
-  padding-left: 30px;
-  margin-top: 25px;
-  image-rendering: crisp-edges;
-} */
-
 .customerImg {
-  max-width: 200px;
-  height: 50px;
-  height: 70px;
+  width: 200px;
+  /* height: 100px; */
   padding-left: 30px;
   margin-top: 25px;
   image-rendering: crisp-edges;
