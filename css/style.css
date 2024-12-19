@@ -492,12 +492,23 @@ html {
 }
 
 .customerImg {
-  width: 150px;
+  /* width: 150px; */
   /* height: 100px; */
   padding-left: 30px;
   margin-top: 25px;
-  object-fit: cover;
-  image-rendering: crisp-edges;
+  /* object-fit: cover;
+  image-rendering: crisp-edges; */
+}
+
+.ci1{
+  width: 50px;
+  border-radius: 50%;
+}
+
+.ci{
+  width: 50px;
+  border-radius: 50%;
+  margin-left:-12px;
 }
 
 .vertical-heading h5 {
