@@ -496,6 +496,7 @@ html {
   /* height: 100px; */
   padding-left: 30px;
   margin-top: 25px;
+  object-fit: cover;
   image-rendering: crisp-edges;
 }
 
