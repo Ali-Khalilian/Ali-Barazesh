@@ -492,20 +492,16 @@ html {
 }
 
 .customerImg {
-  /* width: 150px; */
-  /* height: 100px; */
   padding-left: 30px;
   margin-top: 25px;
-  /* object-fit: cover;
-  image-rendering: crisp-edges; */
 }
 
-.ci1{
+.customer-1-photo{
   width: 50px;
   border-radius: 50%;
 }
 
-.ci{
+.customers-photo{
   width: 50px;
   border-radius: 50%;
   margin-left:-12px;
@@ -814,7 +810,7 @@ html {
   border: none;
   border-image: var(--blue-to-white);
   border-image-slice: 1;
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid;
   position: relative;
 }
 

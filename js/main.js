@@ -49,12 +49,12 @@ $(document).ready(function () {
     const $slides = $(".testimonial");
     const $dots = $(".footerdot");
 
-    $slides.hide().css("opacity", 0); // Hide all slides and reset opacity
-    $dots.removeClass("activate"); // Reset dot activation
+    $slides.hide().css("opacity", 0);
+    $dots.removeClass("activate");
 
-    $slides.eq(slideIndex - 1).show(); // Show current slide
-    fadeIn($slides.eq(slideIndex - 1), 1000); // Apply fade-in effect
-    $dots.eq(slideIndex - 1).addClass("activate"); // Activate corresponding dot
+    $slides.eq(slideIndex - 1).show();
+    fadeIn($slides.eq(slideIndex - 1), 1000);
+    $dots.eq(slideIndex - 1).addClass("activate");
   }
 
   function fadeIn($element, duration) {
@@ -89,14 +89,13 @@ $(document).ready(function () {
       ) || 0;
 
     if (currentScrollTop === 0) {
-      blurValue = 0; // Reset blur
+      blurValue = 0;
     } else if (currentScrollTop > lastScrollTop && blurValue < 10) {
-      blurValue = Math.min(blurValue + 0.3, 10); // Increase blur
+      blurValue = Math.min(blurValue + 0.3, 10);
     } else if (currentScrollTop < lastScrollTop && blurValue > 0) {
-      blurValue = Math.max(blurValue - 0.3, 0); // Decrease blur
+      blurValue = Math.max(blurValue - 0.3, 0);
     }
 
-    // Apply blur with webkit compatibility
     $HeadTitle.css({
       filter: `blur(${blurValue}px)`,
       "-webkit-filter": `blur(${blurValue}px)`,
